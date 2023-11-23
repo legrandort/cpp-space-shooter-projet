@@ -6,7 +6,8 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 project(SpaceShooter VERSION 0.1.0.0)
 set(POJECT_AUTHOR "YOUR NAME <YOUR.EMAIL@esiee.fr>")
 #set(PROJECT_ASSETS_PATH "./assets")
-set(PROJECT_ASSETS_PATH "C:\\\\ESIEE\\\\Cycle Ingé 2ème Année\\\\C++\\\\projet\\\\squeleton\\\\assets")
+set(PROJECT_ASSETS_PATH "C:\\\\Users\\\\jules\\\\OneDrive\\\\Documents\\\\Esiee\\\\E4\\\\Cpp\\\\cpp-space-shooter-projet\\\\squeleton\\\\assets")
+#set(PROJECT_ASSETS_PATH "C:\\\\ESIEE\\\\Cycle Ingé 2ème Année\\\\C++\\\\projet\\\\squeleton\\\\assets")
 
 
 set(CXX_STANDARD_REQUIRED 20)
