@@ -35,7 +35,7 @@ void MovementSystem::update(const sf::Time &delta_time,
              pos.x = pos.x - (vel.vx * delta_time.asSeconds());
      }
      if (input.move_right) {
-         if (pos.x < 1400)
+         if (pos.x < 1300)
             pos.x = pos.x + (vel.vx * delta_time.asSeconds());
      }
      if (input.move_top) {
