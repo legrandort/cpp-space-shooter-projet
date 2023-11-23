@@ -4,7 +4,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 
 project(SpaceShooter VERSION 0.1.0.0)
-set(POJECT_AUTHOR "YOUR NAME <YOUR.EMAIL@esiee.fr>")
+set(POJECT_AUTHOR "William XIANG")
 #set(PROJECT_ASSETS_PATH "./assets")
 set(PROJECT_ASSETS_PATH "C:\\\\Users\\\\jules\\\\OneDrive\\\\Documents\\\\Esiee\\\\E4\\\\Cpp\\\\cpp-space-shooter-projet\\\\squeleton\\\\assets")
 #set(PROJECT_ASSETS_PATH "C:\\\\ESIEE\\\\Cycle Ingé 2ème Année\\\\C++\\\\projet\\\\squeleton\\\\assets")
@@ -53,7 +53,7 @@ set(SOURCE_FILES
   )
 
 # Add executable
-add_executable(space-shooter ${SOURCE_FILES} "src/space-shooter/scenes/menu.cpp")
+add_executable(space-shooter ${SOURCE_FILES} "src/space-shooter/scenes/menu.cpp" "src/space-shooter/ecs/systems/change_system.cpp")
 set_property(TARGET space-shooter PROPERTY CXX_STANDARD 20)
 
 # Configure file

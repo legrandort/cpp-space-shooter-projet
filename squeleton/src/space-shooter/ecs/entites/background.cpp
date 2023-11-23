@@ -3,6 +3,7 @@
 #include <space-shooter/ecs/components/position_component.hpp>
 #include <space-shooter/ecs/components/sprite_component.hpp>
 #include <space-shooter/ecs/components/texture_component.hpp>
+#include <space-shooter/ecs/components/input_component.hpp>
 
 #include <filesystem>
 
@@ -13,6 +14,7 @@ BackgroundEntity::BackgroundEntity(const std::filesystem::path &texture_path,
   add<PositionComponent>(0.f, 0.f);
   add<TextureComponent>(texture_path, true);
   add<SpriteComponent>(window_width, window_height);
+  add<InputComponent>();
 }
 
 } // namespace space_shooter::ecs

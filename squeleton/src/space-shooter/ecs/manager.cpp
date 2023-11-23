@@ -104,6 +104,9 @@ void Manager::triggerSceneChange() {
 
   // launch the scene switch
   switch (switch_to_scene) {
+  case GameState::Scene::Menu:
+      menuGame(*this);
+      break;
   case GameState::Scene::Level:
     initLevel(*this);
     break;
