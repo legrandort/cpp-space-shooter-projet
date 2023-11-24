@@ -3,6 +3,7 @@ space shooter cpp
 
 Jeu de space shooting en C++ réalisé par William XIANG et Jules BUVRY
 
+
 Implémentations:
 
 Ajout de l'avion du joueur
@@ -16,9 +17,12 @@ Ajout d'un écran menu
 
 Problèmes rencontrés:
 
-Ajout du texte sur l'écran menu
+Ajout du texte sur l'écran menu (Résolu)
 
-Changement de scène fonctionnant de la scène Menu -> Level mais ne fonctionne pas de la scène Level -> Menu
+Changement de scène fonctionnant de la scène Level -> Menu (Résolu)
+
+Accès aux fichiers /assets du projet
+
 
 Instructions:
 
