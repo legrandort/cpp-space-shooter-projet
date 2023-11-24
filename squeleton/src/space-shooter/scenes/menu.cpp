@@ -15,12 +15,11 @@ namespace space_shooter {
             1500,
             900
         );
+        
 
         manager.registerSystem<ecs::RenderingSystem>();
         manager.registerSystem<ecs::InputSystem>();
         manager.registerSystem<ecs::ChangeSystem>();
-
-
 
     }
 } // namespace space_shooter

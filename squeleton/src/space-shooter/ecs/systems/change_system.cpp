@@ -26,9 +26,11 @@ namespace space_shooter::ecs {
             if (input.enter) {
                 manager.gameState().switch_to_scene = GameState::Scene::Level;
             }
+            
             if (input.escape) {
                 manager.gameState().switch_to_scene = GameState::Scene::Menu;
             }
+            
         }
     }
 

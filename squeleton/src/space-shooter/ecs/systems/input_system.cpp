@@ -33,10 +33,10 @@ void InputSystem::update(const sf::Time &delta_time,
      input.escape = false;
      input.enter = false;
     // TODO: detect keypressed with SFML and set the boolean state accordingly
-     input.move_left = sf::Keyboard::isKeyPressed(sf::Keyboard::Left);
-     input.move_right = sf::Keyboard::isKeyPressed(sf::Keyboard::Right);
-     input.move_top = sf::Keyboard::isKeyPressed(sf::Keyboard::Up);
-     input.move_bottom = sf::Keyboard::isKeyPressed(sf::Keyboard::Down);
+     input.move_left = sf::Keyboard::isKeyPressed(sf::Keyboard::Left) || sf::Keyboard::isKeyPressed(sf::Keyboard::Q);
+     input.move_right = sf::Keyboard::isKeyPressed(sf::Keyboard::Right) || sf::Keyboard::isKeyPressed(sf::Keyboard::D);
+     input.move_top = sf::Keyboard::isKeyPressed(sf::Keyboard::Up) || sf::Keyboard::isKeyPressed(sf::Keyboard::Z);
+     input.move_bottom = sf::Keyboard::isKeyPressed(sf::Keyboard::Down) || sf::Keyboard::isKeyPressed(sf::Keyboard::S);
      input.shooting = sf::Keyboard::isKeyPressed(sf::Keyboard::Space);
      input.escape = sf::Keyboard::isKeyPressed(sf::Keyboard::Escape);
      input.enter = sf::Keyboard::isKeyPressed(sf::Keyboard::Enter);
